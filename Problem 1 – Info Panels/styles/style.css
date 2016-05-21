@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body #wrapper {
+  font-family: Tahoma, sans-serif;
+  width: 900px;
+  margin: 5px auto; }
+  body #wrapper header h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 7px; }
+  body #wrapper main {
+    font-size: 15px;
+    background-color: #DDDDDD;
+    margin-top: 10px;
+    padding: 20px; }
+    body #wrapper main section {
+      width: 390px;
+      display: inline-block;
+      margin: 0 30px 30px 0;
+      padding-top: 10px; }
+      body #wrapper main section header .images {
+        height: 100px;
+        width: 100px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        background-color: white;
+        border-radius: 50%; }
+        body #wrapper main section header .images .picture {
+          height: 100px;
+          width: 100px;
+          border-radius: 50%;
+          margin: 0;
+          padding: 0; }
+        body #wrapper main section header .images #picture1 {
+          background: url("../Images/01-office-collection.png") -20px -5px; }
+        body #wrapper main section header .images #picture2 {
+          background: url("../Images/01-office-collection.png") -150px -5px; }
+        body #wrapper main section header .images #picture3 {
+          background: url("../Images/01-office-collection.png") -302px -5px; }
+        body #wrapper main section header .images #picture4 {
+          background: url("../Images/01-office-collection.png") 120px -5px; }
+      body #wrapper main section header h3 {
+        text-align: center;
+        padding: 5px 0 5px 0; }
+
+p {
+  margin: 10px; }
+
+section:hover {
+  background-color: #02808F;
+  color: white;
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

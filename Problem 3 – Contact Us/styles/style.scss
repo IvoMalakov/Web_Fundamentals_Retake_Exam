@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Tahoma, Helvetica sans-serif;
+  font-size: 15px;
+
+  #wrapper {
+    width: 960px;
+    margin: 5px auto;
+    background-color: #a8dadc;
+    padding: 10px 30px 30px 40px;
+
+    section {
+      display: inline-block;
+      margin: 10px 0 20px 0;
+      vertical-align: top;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    #left {
+      background-color: #1d3557;
+      width: 300px;
+      height: 610px;
+      margin-right: 0;
+
+      h3 {
+        font-size: 35px;
+        color: #8AA49B;
+        text-align: center;
+        margin: 40px 0 5px 0;
+      }
+
+      p {
+        font-size: 13px;
+        color: white;
+        padding-left: 20px;
+        padding-right: 56px;
+      }
+    }
+
+    #right {
+      width: 600px;
+      height: 580px;
+      background-color: #f1faee;
+      margin-left: -4px;
+      padding-left:30px;
+      padding-top: 30px;
+
+      .red {
+        color: #e63946;
+      }
+
+      .email {
+        display: block;
+        margin-bottom: 20px;
+
+        .required {
+          margin-left: 420px;
+        }
+
+        div {
+          margin: 5px 0 5px 0;
+        }
+
+        input {
+          width: 570px;
+          height: 25px;
+          border: 1px solid #e63946;
+        }
+      }
+
+      .optional {
+        color: #CBC1C8;
+      }
+
+      .phone {
+        margin-bottom: 20px;
+
+        .optional {
+          margin-left: 356px;
+        }
+
+        div {
+          margin: 5px 0 5px 0;
+
+          input {
+            height: 25px;
+            padding-left: 5px;
+            border: 1px solid #a8dadc;
+
+          }
+
+          #phone {
+            width: 120px;
+            margin-right: 20px;
+
+          }
+
+         #optional {
+            width: 415px;
+          }
+        }
+      }
+
+      .message {
+        margin-bottom: 20px;
+
+        .optional {
+          margin-left: 434px;
+        }
+
+        div {
+          margin: 5px 0 5px 0;
+
+          textarea {
+            width: 575px;
+            height: 100px;
+            border: 1px solid #a8dadc;
+          }
+        }
+      }
+
+      .I {
+        p {
+          margin-bottom: 10px;
+        }
+
+        div {
+          margin-left: 15px;
+          margin-bottom: 5px;
+        }
+      }
+
+      .tick {
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        span {
+          margin-left: 5px;
+          margin-right: 5px;
+
+          a {
+            color: #e63946;
+          }
+        }
+      }
+
+      button {
+        margin-bottom: 10px;
+        width: 570px;
+        height: 30px;
+        font-size: 16px;
+        padding: auto;
+        background-color: #e63946;
+        color: #f1faee;
+        border-radius: 5px;
+      }
+
+      footer {
+        margin-top: 10px;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

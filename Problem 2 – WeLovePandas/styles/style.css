@@ -1,0 +1,228 @@
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat-Regular"), url(https://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+/* devanagari */
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Hind Medium"), local("Hind-Medium"), url(https://fonts.gstatic.com/s/hind/v5/bWPw4Za2XndpOjggSNN5JPY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB; }
+/* latin-ext */
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Hind Medium"), local("Hind-Medium"), url(https://fonts.gstatic.com/s/hind/v5/TCDCvLw6ewp4kJ2WSI4MT_Y6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+/* latin */
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Hind Medium"), local("Hind-Medium"), url(https://fonts.gstatic.com/s/hind/v5/_JiDQLq4JWzs7prWhNNmuA.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+/* devanagari */
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Hind Bold"), local("Hind-Bold"), url(https://fonts.gstatic.com/s/hind/v5/AFoPIhbuX_gBhSszntNC0_Y6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+02BC, U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200B-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB; }
+/* latin-ext */
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Hind Bold"), local("Hind-Bold"), url(https://fonts.gstatic.com/s/hind/v5/503ks6dbq2nVdfUL61JyAfY6323mHUZFJMgTvxaG2iE.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF; }
+/* latin */
+@font-face {
+  font-family: 'Hind';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Hind Bold"), local("Hind-Bold"), url(https://fonts.gstatic.com/s/hind/v5/PQuIEfcr_wdF_zOSNjqWKQ.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Hind;
+  font-weight: 700; }
+  body #wrapper {
+    max-width: 1200px;
+    margin: 0 auto; }
+    body #wrapper button,
+    body #wrapper .down {
+      font-size: 18px; }
+    body #wrapper button {
+      background: none;
+      border: none; }
+    body #wrapper h2 {
+      font-family: Hind;
+      font-weight: 700;
+      font-size: 32px; }
+    body #wrapper p {
+      font-size: 20px; }
+    body #wrapper h1 {
+      font-family: Montserrat;
+      font-weight: 700;
+      font-size: 50px;
+      padding: 20px; }
+    body #wrapper .up {
+      background-image: url("../Images/02-Head-Img.jpg");
+      width: 1200px;
+      height: 500px;
+      margin-bottom: 20px; }
+      body #wrapper .up ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 10px; }
+        body #wrapper .up ul li {
+          width: 100px;
+          height: 25px; }
+          body #wrapper .up ul li a {
+            color: #FFFFF2;
+            text-decoration: none;
+            font-family: Hind;
+            font-weight: 500;
+            font-size: 14px;
+            padding: 20px;
+            margin-left: 5px;
+            text-align: center;
+            vertical-align: middle; }
+          body #wrapper .up ul li #logo {
+            background: url("../Images/02-icons-sprite.png") 250px -10px;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle; }
+        body #wrapper .up ul li:hover {
+          cursor: pointer;
+          border: 1px solid #c59a6d; }
+          body #wrapper .up ul li:hover a {
+            color: #c59a6d; }
+      body #wrapper .up header h4 {
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFF2;
+        padding-top: 180px;
+        padding-bottom: 20px; }
+      body #wrapper .up .button-up {
+        margin-left: 350px; }
+        body #wrapper .up .button-up button {
+          background: none;
+          border: 3px solid #FFFFF2;
+          color: #FFFFF2; }
+    body #wrapper .icon-div {
+      width: 20px;
+      height: 20px;
+      border: 1px solid #c59a6d;
+      margin: 10px 600px 10px 600px;
+      padding: 5px; }
+      body #wrapper .icon-div .icon {
+        width: 10px;
+        height: 10px;
+        margin: 0;
+        padding: 0;
+        background: none; }
+      body #wrapper .icon-div #icon1 {
+        background: url("../Images/02-icons-sprite.png") 240px -10px;
+        width: 20px;
+        height: 20px;
+        vertical-align: middle; }
+      body #wrapper .icon-div #icon2 {
+        background: url("../Images/02-icons-sprite.png") 240px -10px;
+        width: 20px;
+        height: 20px;
+        vertical-align: middle; }
+    body #wrapper .middle {
+      margin: 0 auto; }
+      body #wrapper .middle header h2 {
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px; }
+      body #wrapper .middle p {
+        text-align: center;
+        width: 750px;
+        padding-left: 250px; }
+    body #wrapper .blue-div {
+      margin-top: 30px;
+      margin-bottom: 30px;
+      text-align: center;
+      font-size: 18px;
+      border: 1px solid #c59a6d;
+      width: 100%;
+      height: 150px;
+      background-color: #282F35; }
+      body #wrapper .blue-div .link {
+        margin: 54px 500px 50px 510px;
+        width: 200px;
+        height: 35px;
+        padding: 10px;
+        border: 1px solid #c59a6d; }
+        body #wrapper .blue-div .link a {
+          font-size: 18px;
+          text-decoration: none;
+          color: #FFFFF2; }
+      body #wrapper .blue-div .link:hover a {
+        color: #c59a6d; }
+    body #wrapper .down header h2 {
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 1px; }
+    body #wrapper .down p {
+      text-align: center;
+      width: 750px;
+      padding-left: 250px; }
+    body #wrapper .down .pictures {
+      display: inline-block;
+      margin-bottom: 20px; }
+      body #wrapper .down .pictures ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around; }
+        body #wrapper .down .pictures ul li img {
+          width: 100%;
+          height: 100%; }
+    body #wrapper .down #button-down {
+      background-color: #c59a6d;
+      width: 250px;
+      height: 45px;
+      margin-left: 500px; }
+      body #wrapper .down #button-down a {
+        font-size: 18px;
+        color: #FFFFF2;
+        text-align: center;
+        vertical-align: middle;
+        background: none;
+        border: none;
+        text-decoration: none;
+        padding-left: 10px; }
+    body #wrapper .down #button-down:hover {
+      cursor: pointer;
+      box-shadow: 0 0 7px grey; }
+    body #wrapper footer {
+      font-size: 14px;
+      background-color: #282F35;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      width: 100%;
+      height: 50px; }
+      body #wrapper footer ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10px; }
+        body #wrapper footer ul li {
+          padding-top: 10px; }
+          body #wrapper footer ul li a {
+            text-decoration: none;
+            color: #FFFFF2; }
+
+/*# sourceMappingURL=style.css.map */
